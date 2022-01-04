@@ -175,5 +175,8 @@ $("#remove-tasks").on("click", function() {
   saveTasks();
 });
 
+localStorage.clear();
 // load tasks for the first time
 loadTasks();
+
+
